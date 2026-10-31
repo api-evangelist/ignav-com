@@ -64,5 +64,142 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ignav-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://ignav.com/
+Ignav provides a self‑serve API delivering real‑time flight price data and direct booking links. Developers can search one‑way, round‑trip, multi‑city, and open‑jaw fares, retrieve cheapest‑date options, and obtain affiliate booking URLs. The service offers a free tier with 1,000 requests and usage‑based pricing thereafter, with no monthly minimums or hard rate limits. Documentation includes quickstart guides, API reference, and example code.
+
+**Areas:** Company · Flight · Travel · API · Pricing · Data
+
+## ignav-com on APIs.io
+
+Everything profiled for ignav-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ignav-com/](https://apis.io/providers/ignav-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [ignav-com Airports API](https://apis.io/apis/ignav-com/ignav-com-airports-api/) — The Airports API from ignav-com — 1 operation(s) for airports.
+- [ignav-com Fares API](https://apis.io/apis/ignav-com/ignav-com-fares-api/) — The Fares API from ignav-com — 5 operation(s) for fares.
+- [ignav-com Health API](https://apis.io/apis/ignav-com/ignav-com-health-api/) — The Health API from ignav-com — 1 operation(s) for health.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Ignav Com Agentic Access](https://apis.io/agentic-access/ignav-com/ignav-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BookingLinksRequest](https://apis.io/schemas/ignav-com/ignav-com-booking-links-request/)
+- [CheapestDatesRequest](https://apis.io/schemas/ignav-com/ignav-com-cheapest-dates-request/)
+- [FareSearchRequest](https://apis.io/schemas/ignav-com/ignav-com-fare-search-request/)
+- [FareSearchResponseModel](https://apis.io/schemas/ignav-com/ignav-com-fare-search-response-model/)
+- [OneWayRequest](https://apis.io/schemas/ignav-com/ignav-com-one-way-request/)
+- [RoundTripRequest](https://apis.io/schemas/ignav-com/ignav-com-round-trip-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ignav Com Context](https://apis.io/jsonld/ignav-com/ignav-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ignav-com API Rules](https://apis.io/rules/ignav-com/ignav-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Ignav Com Authentication](https://apis.io/security/ignav-com/ignav-com-authentication/)
+- [Ignav Com Domain Security](https://apis.io/security/ignav-com/ignav-com-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Ignav Com Scopes](https://apis.io/scopes/ignav-com/ignav-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Ignav Com Plans Pricing](https://apis.io/plans/ignav-com/ignav-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Ignav Com Rate Limits](https://apis.io/rate-limits/ignav-com/ignav-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://ignav.com/)
+- [Documentation](https://ignav.com/docs)
+- [Getting started](https://ignav.com/docs/quickstart)
+- [API reference](https://ignav.com/docs/api-reference)
+- [Pricing](https://ignav.com/pricing)
+- [Sign up](https://ignav.com/signup)
+- [Terms of service](https://ignav.com/terms)
+- [Privacy policy](https://ignav.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.9** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 58.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 58.8 |
+| Access clarity | 63.7 |
+
+**Agent readiness 55.3** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ignav-com/](https://apis.io/providers/ignav-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ignav-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ignav-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
